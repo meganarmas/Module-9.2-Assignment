@@ -1,0 +1,114 @@
+<!DOCTYPE html> 
+    <html>
+    <head>
+    <title>Tech Solutions Home Page</title>
+        <meta charset="UTF-8">
+        <met name = "viewpoint" content="width-device-width, initial-scale-1.0">
+            <link rel="stylesheet" href="css/bootstrap.css">
+            <script src="js/bootstrap.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar" href="#">Navigation</a>
+            <button
+                class="navbar-toggle"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+                >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class ="collapse" id="navigation-bar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-item text-black" href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a class="nav-tem text-black" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <header class="bg-black text-white text-center py-4">
+            <div class="container">
+                <h1>Tech Solutions Services</h1>
+                <p class="text-white">Welcome! We're here to help you in any way you need!</p>
+            </div>
+        </header>
+
+        <!-- services -->
+        <section id="services" class="py-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md mb-3">
+                        <img src="web-development.jpg" class="mb-2 " alt="image of Web Development"/>
+                            <h2 class="text-center">Web Development</h2>
+                                    <p class="text-center mt-2">We can help you achieve the webpage of your dreams.</p>
+                    </div>
+                    <div class="col-md mb-3">
+                        <img src="cybersecurity-graphic.jpg" class="mb-2" alt="image of Cyber Security graphic"/>
+                            <h2 class="text-center">Cyber Security</h2>
+                                    <p class="text-center mt-2">Our team can help you protect your data from hackers.</p>
+                    </div>
+
+                    <div class="col-md mb-3">
+                        <img src="graphic design.jpg" class="mb-2" alt="image of an graphic designer artist working"/>
+                            <h2 class="text-center">Graphic Design</h2>
+                                    <p class="text-center mt-2">We can make your company a logo, specific designs for video or ad usage, or specially made graphics for your site.</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        
+
+
+         <!-- contact us -->
+        <section id="contact" class="container py-5 bg-light">
+            <h2 class="text-center bg-black text-white">Contact Us</h2>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="contact-form">
+                        <form>
+                            <div class="mb-3">
+                                <label for="name"class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name"/>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="drop-services-menu" class="mb-3">Services</label>
+                                    <select class="form-select" id="drop-services-menu" required>
+                                        <option disabled selected>Select a Service</option>
+                                        <option>Web Development</option>
+                                        <option>Cyber Security</option>
+                                        <option>Graphic Design</option>
+                                    </select>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" row="3" placeholder="Enter your message" required>
+                                </textarea>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary mt-3">Submit</button>
+            </form>
+    </section>
+        
+        
+        <footer class="bg-black text-white text-center py-3">
+            © 2024 Tech Solutions.
+        </footer>
+        </body>
+        </html>
